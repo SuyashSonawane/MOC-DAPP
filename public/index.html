@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOC|DAPP</title>
+  <meta author="Suyash Sonawane">
+  <meta name="description" content="MOC DAPP">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="web3.js"></script>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body class="text-center">
+
+  <div class="details">
+    <br>
+    <h1>Mousse on Chain</h1>
+    <h4>A blockchain based Mousse voting platform</h4>
+    <hr>
+  </div>
+  <div class="cover" id="cover">
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    &nbsp;
+    Connecting to BlockChain
+  </div>
+  <div class="landing " id="landing">
+    <div class="card" style="width: 18rem;" id="i0">
+      <img class="card-img-top"
+        src="https://www.somethingswanky.com/wp-content/uploads/2013/03/neopolitan-mousse-cake.png"
+        alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Neapolitan Mousse Cake
+        </h5>
+        <button class="btn btn-primary" id="vote0" onclick="vote(this)">Vote <strong id="v0">1</strong></button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;" id="i1">
+      <img class="card-img-top" src="https://www.somethingswanky.com/wp-content/uploads/2013/03/butterscotch-mousse.png"
+        alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Butterscotch Mousse</h5>
+
+        <button class="btn btn-primary" id="vote1" onclick="vote(this)">Vote <strong id="v1">1</strong></button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;" id="i2">
+      <img class="card-img-top"
+        src="https://www.somethingswanky.com/wp-content/uploads/2013/03/chocolate-malted-mousse.jpg"
+        alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Chocolate Malted Mousse</h5>
+        <button class="btn btn-primary" id="vote2" onclick="vote(this)">Vote <strong id="v2">1</strong></button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="bundle.js"></script>
+
+</html>
